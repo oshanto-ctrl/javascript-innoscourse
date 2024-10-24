@@ -3,7 +3,7 @@
 */
 
 // Alert pop up to user.
-alert("As-salamualaikum Visitor.");
+// alert("As-salamualaikum Visitor.");
 
 // Output
 document.write("Hajime");
