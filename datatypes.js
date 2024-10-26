@@ -65,8 +65,27 @@ console.log("Last Game is ", games[games.length]); // undefined
 
 
 
+// DATE
+
+const today = new Date();
+console.log(today); // Sat Oct 26 2024 21:49:56 GMT+0600 (Bangladesh Standard Time)
+
+console.log(
+    "This Year = ", today.getFullYear(),
+    "Timezone = ", today.getTime(), // seconds
+);
 
 
+// Left to Right Calculation.
 
+// Number + String: Act as a string
+// num + num + str (becomes)
+// (num + num) + str
+let numstr = 16 + 2 + " Valid age to vote.";
+console.log(numstr, typeof(numstr));
 
-
+// String + Number
+// str + num + num (becomes)
+// str + str + str
+let numstr2 = "VOLVO" + 44 + 50;
+console.log(numstr2, typeof(numstr2)); 
